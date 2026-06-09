@@ -27,6 +27,314 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <13 14>;
+            layers = <0>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <28 29>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <26 27>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <27 28>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <40 41>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        lalt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <41 28>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        lgui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <29 41>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        ctrl-shift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <40 41 54>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        alt-shift {
+            bindings = <&kp LA(LEFT_SHIFT)>;
+            key-positions = <28 41 54>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        gui-shift {
+            bindings = <&kp LG(LSHIFT)>;
+            key-positions = <29 41 54>;
+            timeout-ms = <30>;
+            require-prior-idle-ms = <180>;
+            layers = <0>;
+        };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <38 39>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <39 40>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <40 38>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        sellect-all {
+            bindings = <&kp LC(A)>;
+            key-positions = <37 38>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <14 15>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        redo {
+            bindings = <&kp Y>;
+            key-positions = <15 16>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <18 19>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        less-than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <31 30>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        greater-than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <45 44>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        lpar {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        lbrc {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <31 32>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        lbkt {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <45 46>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        rpar {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 21>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        rbrc {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <33 32>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        rbkt {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <46 47>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <33 34>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        double-quotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <21 22>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <47 48>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <32 21>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <31 21>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        under-scrore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <31 22>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <31 33>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        qmark {
+            bindings = <&kp QUESTION>;
+            key-positions = <31 47>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <31 34>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <31 48>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <31 55>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0>;
+        };
+
+        scroll-up {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <19 20 21>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0 2>;
+        };
+
+        scroll-down {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <45 46 47>;
+            timeout-ms = <35>;
+            require-prior-idle-ms = <150>;
+            layers = <0 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
