@@ -300,3 +300,5 @@ combos:
 - p: [45, 46, 47]
   k: '&msc SCRL_DOWN'
   l: [default, raise]
+- p: [25, 26]
+  k: TAB
